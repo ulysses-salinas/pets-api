@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/adamszaruga/pets-api#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sails": "^1.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5"
   }
 }
